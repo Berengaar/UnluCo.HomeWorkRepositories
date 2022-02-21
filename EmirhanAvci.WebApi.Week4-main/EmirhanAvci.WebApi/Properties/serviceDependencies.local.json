@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "mssql1": {
+      "type": "mssql.local",
+      "connectionId": "ConnectionStrings:Server=(localdb):mssqllocaldb;Database=DbWebApi;Trusted_Connection=True;MultipleActiveResultSets=true",
+      "secretStore": "LocalSecretsFile"
+    }
+  }
+}
